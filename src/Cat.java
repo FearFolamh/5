@@ -1,4 +1,4 @@
-public class Cat extends Animal implements Swimmable
+public class Cat extends Animal
 {
     public Cat(String Name, Integer Age)
     {
@@ -10,9 +10,6 @@ public class Cat extends Animal implements Swimmable
         System.out.println("Мяу");
     }
 
-    @Override
-    public void swim() {
 
-    }
 
 }

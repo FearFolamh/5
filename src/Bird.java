@@ -10,7 +10,7 @@ public class Bird extends Animal implements  Swimmable {
 
     @Override
     public void swim() {
-
+        System.out.println("Птичка ныряет");
     }
 
 }
